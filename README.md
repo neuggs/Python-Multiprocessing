@@ -1,5 +1,5 @@
 # Python Multiprocessing
-> A simple project that shows how Python multi-processing works.
+A simple project that shows how Python multi-processing works.
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+TODO
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
