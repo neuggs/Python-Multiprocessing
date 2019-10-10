@@ -1,49 +1,34 @@
 # Python Multiprocessing
 A simple project that shows how Python multi-processing works.
 
-## Table of contents
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+## Requirements
+The project is all contained within four Jupyter Notebook files. You'll need a Python distribution that can run such Notebook files - this project was built using Anaconda.
 
-## General info
-TODO
+In addition, several packages are imported and can be added (if not already added) by using `pip install <PACKAGE_NAME>`.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+* `pandas`
+* `os`
+* `logging`
+* `timeit`
+* `sklearn.feature_extraction.text TfidfVectorizer`
+* `multiprocessing Pool`
+* `datetime datetime`
 
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+Finally, this entire project uses some very large files, which I opted not to upload into GitHub. You can get the files at:
 
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Once downloaded, adjust the paths to those files in the Python code.
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+The project shows several different features, focused on illustrating Python's multi-procssing capabilities:
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Python multi-processing
+* Logging
+* Parallel corpus processing, critical for text analytics
+* Working with corpora for text analytics (not too deep)
+* Some Google Cloud SDK / Spark coding (not meant as an introduction)
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _finished_, since it's illustrative only.
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Inspired by Bellevue University's MS in Data Science program.
