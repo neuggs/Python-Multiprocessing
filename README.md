@@ -1,34 +1,21 @@
 # Python Multiprocessing
-A simple project that shows how Python multi-processing works.
+A simple project that shows how Python multi-processing works using the Wikipedia corpus. The project consists of three Jupyter Notebooks and incrementally shows various elements of Python multi-processing. For a little something extra, logging is also used extensively within the Notebooks. Each of the three parts builds on the prior part, starting with reading, tokenizing, and finally word counting the corpora.
 
-## Requirements
-The project is all contained within four Jupyter Notebook files. You'll need a Python distribution that can run such Notebook files - this project was built using Anaconda.
+For the first two steps, there's code that shows the effects of multi-processing on processing speed.
 
-In addition, several packages are imported and can be added (if not already added) by using `pip install <PACKAGE_NAME>`.
+There's one other extra - using Google Cloud to run part 3. This is because the last part is very CPU intensive, so I shifted everything to run from Google. How the code was run is outside of this description, but running Google jobs is pretty easy and the documentation is fantastic. 
 
-* `pandas`
-* `os`
-* `logging`
-* `timeit`
-* `sklearn.feature_extraction.text TfidfVectorizer`
-* `multiprocessing Pool`
-* `datetime datetime`
+# Requirements
+You will need the Wikipedia featured articles JSON files. ADD URL TO THE FILES HERE.
 
-Finally, this entire project uses some very large files, which I opted not to upload into GitHub. You can get the files at:
+You also need to have the Google Cloud SDK installed and a Google instance running (for part 3).
 
-Once downloaded, adjust the paths to those files in the Python code.
+You will also need the following packages installed in Python (you can use `pip install <PACKAGE_NAME>` within Anaconda (for instance) to install these packages, presuming you have Anaconda (or similar Python distribution) installed.(Some of thse are likely already installed.)
 
-## Features
-The project shows several different features, focused on illustrating Python's multi-procssing capabilities:
-
-* Python multi-processing
-* Logging
-* Parallel corpus processing, critical for text analytics
-* Working with corpora for text analytics (not too deep)
-* Some Google Cloud SDK / Spark coding (not meant as an introduction)
-
-## Status
-Project is: _finished_, since it's illustrative only.
-
-## Inspiration
-Inspired by Bellevue University's MS in Data Science program.
+* pandas
+* logging
+* timeit
+* os
+* multiprocessing
+* datetime
+* sklearn
