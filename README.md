@@ -19,3 +19,6 @@ You will also need the following packages installed in Python (you can use `pip 
 * multiprocessing
 * datetime
 * sklearn
+
+# To Use
+Check out each of the Jupyter Notebooks - `Multiprocessing 1A.ipynb`, `Multiprocessing 1B.ipynb`, and `Multiprocessing 1C.ipynb` (noting that you'll need a Google Cloud account for the third one). Those Notebooks contains all the code along with additional documentation.
